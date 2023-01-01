@@ -6,7 +6,9 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    
+    minWidth: {
+      '1/2': '50%',
+    },
     extend: {
       fontFamily: {
          burtons: "burtons",
