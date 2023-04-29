@@ -15,7 +15,7 @@ export default function Home() {
        <title>Gabenley-Portofolio</title>
        <meta name="description" content="Gabenley oficial website"></meta>
     </Head>
-    <main className="px-10 bg-white dark:bg-gray-800">
+    <main className=" bg-white dark:bg-gray-800">
     <section className="min-h-screen">
        <Nav fun={() => setdarMode(!darkMode)}/>
        <About />

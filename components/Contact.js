@@ -14,7 +14,7 @@ export default function Contact(){
        
     }
 
-    alert("Hello Gabenley")
+    // alert("Hello Gabenley")
 
     emailjs.sendForm("service_9vxxnsd", "template_hid93aj", form.current, "OEvbZFV7yi4j1L_1P")
       .then((result) => {
@@ -45,7 +45,7 @@ export default function Contact(){
              </div>
 
              <div>
-               <input type="email" name="from_name" className="appearance-none border border-gray-300 focus:ring-2 ring-gray-400 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline mb-2 dark:bg-slate-200 dark:placeholder:text-gray-700" id="email"  placeholder="Add your name" />
+               <input type="text" name="from_name" className="appearance-none border border-gray-300 focus:ring-2 ring-gray-400 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline mb-2 dark:bg-slate-200 dark:placeholder:text-gray-700" id="email"  placeholder="Add your name" />
              </div>
 
              <div>
